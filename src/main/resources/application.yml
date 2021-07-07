@@ -1,0 +1,6 @@
+server:
+  port: 3000
+spring:
+  data:
+    mongodb:
+      uri: mongodb://sid:Sid12@cluster0-shard-00-00.seyo0.mongodb.net:27017,cluster0-shard-00-01.seyo0.mongodb.net:27017,cluster0-shard-00-02.seyo0.mongodb.net:27017/dev?ssl=true&replicaSet=atlas-zpsd5m-shard-0&authSource=admin&retryWrites=true&w=majority
